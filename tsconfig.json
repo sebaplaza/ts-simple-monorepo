@@ -1,0 +1,7 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./packages/greeter/src" },
+    { "path": "./packages/client/src" }
+  ]
+}
