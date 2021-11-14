@@ -1,5 +1,5 @@
-import sayhi from '@spa/greeter'
+import sayhi from "@spa/greeter";
 
-const res = sayhi('spa');
+const res = sayhi("spa");
 
-console.log(res)
+console.log(res);

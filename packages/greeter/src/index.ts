@@ -1,9 +1,5 @@
-
-
-const world = 'world';
-
 function hello(world: string = 'world'): string {
-    return `Hello ${world}! ...`;
+  return `Hello ${world}! ...`;
 }
 
-export default hello; 
+export default hello;
