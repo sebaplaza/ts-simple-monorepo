@@ -2,6 +2,7 @@
   "scripts": {
     "postinstall": "run-s bootstrap",
     "bootstrap": "lerna bootstrap",
+    "clean": "lerna clean",
     "lint": "eslint .",
     "build": "tsc --build",
     "watch": "tsc --build --watch",
