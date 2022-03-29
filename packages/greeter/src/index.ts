@@ -1,5 +1,5 @@
-function hello(world: string = "world"): string {
-  return `Hello ${world}! ...`;
-}
+import greeter from "./greeter";
 
-export default hello;
+export default {
+  hello: greeter,
+};

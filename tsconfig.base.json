@@ -1,5 +1,9 @@
 {
-  "excludeDirectories": ["**/node_modules", "dist"],
+  "extends": "@tsconfig/node16/tsconfig.json",
+  "excludeDirectories": [
+    "**/node_modules",
+    "dist"
+  ],
   "compilerOptions": {
     "composite": true /* Enable constraints that allow a TypeScript project to be used with project references. */,
     /* Language and Environment */

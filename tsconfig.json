@@ -1,11 +1,12 @@
 {
+  "extends": "./tsconfig.base.json",
   "files": [],
   "references": [
     {
-      "path": "./packages/greeter/src"
+      "path": "./packages/greeter"
     },
     {
-      "path": "./packages/client/src"
+      "path": "./packages/greeter-client"
     }
   ]
 }

@@ -1,11 +1,11 @@
 {
-  "name": "@spa/client",
+  "name": "@spa/greeter-client",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node-dev dist/index.js --respawn --notify=false"
+    "dev": "ts-node-dev src/index.ts --respawn --notify=false"
   },
   "keywords": [],
   "author": "",
