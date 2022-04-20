@@ -1,4 +1,4 @@
 # ts-simple-monorepo
 
-[ ] release system
-[ ] jest "packages" property with ts-jest
+- [ ] release system
+- [ ] jest "packages" property with ts-jest
