@@ -20,7 +20,7 @@ jobs:
           cache: "npm"
       - run: npm ci
 
-  test:
+  lint:
     runs-on: ubuntu-20.04
     needs: [warmup]
     steps:
