@@ -1,0 +1,7 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@spa/greeter': workspace:^1.0.0
+
+dependencies:
+  '@spa/greeter': link:../greeter

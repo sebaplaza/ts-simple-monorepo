@@ -1,9 +1,6 @@
 {
   "name": "ts-simple-monorepo",
   "scripts": {
-    "postinstall": "run-s bootstrap",
-    "bootstrap": "lerna bootstrap",
-    "clean": "lerna clean",
     "lint": "eslint .",
     "build": "tsc --build",
     "watch": "tsc --build --watch",
@@ -12,15 +9,22 @@
     "test": "jest"
   },
   "devDependencies": {
-    "@spa/linting": "./packages/linting",
+    "@typescript-eslint/eslint-plugin": "^5.21.0",
+    "@typescript-eslint/parser": "^5.21.0",
+    "eslint": "^8.14.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^16.2.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.2",
     "@tsconfig/node16": "^1.0.2",
     "@types/jest": "^27.4.1",
-    "@types/node": "^16.11.26",
+    "@types/node": "^16.11.32",
     "jest": "^27.5.1",
-    "lerna": "^3.22.1",
     "npm-run-all": "^4.1.5",
     "ts-jest": "^27.1.4",
     "ts-node-dev": "^1.1.8",
-    "typescript": "^4.6.3"
+    "typescript": "^4.6.4"
   }
 }
